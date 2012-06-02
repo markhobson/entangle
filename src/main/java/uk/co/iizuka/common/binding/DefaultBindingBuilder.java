@@ -1,0 +1,92 @@
+/*
+ * $HeadURL: https://svn.iizuka.co.uk/common/binding/api/tags/1.1.0-beta-1/src/main/java/uk/co/iizuka/common/binding/DefaultBindingBuilder.java $
+ * 
+ * (c) 2011 IIZUKA Software Technologies Ltd.  All rights reserved.
+ */
+package uk.co.iizuka.common.binding;
+
+import static uk.co.iizuka.common.binding.Utilities.checkNotNull;
+
+import uk.co.iizuka.common.binding.Binder.BindingBuilder;
+
+/**
+ * 
+ * 
+ * @author Mark Hobson
+ * @version $Id: DefaultBindingBuilder.java 101059 2012-05-03 13:39:52Z mark@IIZUKA.CO.UK $
+ * @param <S>
+ *            the source type of the binding being built
+ * @param <T>
+ *            the target type of the binding being built
+ * @param <V>
+ *            the violations type produced by the binding being built
+ */
+class DefaultBindingBuilder<S, T, V> implements BindingBuilder<S, T, V>
+{
+	// fields -----------------------------------------------------------------
+	
+	private final Observable<S> source;
+	
+	private final Validator<? super S, ? extends V> sourceValidator;
+	
+	private final Converter<S, T> converter;
+	
+	private final Validator<? super T, ? extends V> targetValidator;
+	
+	private final BinderCallback<V> callback;
+	
+	// constructors -----------------------------------------------------------
+	
+	public DefaultBindingBuilder(Observable<S> source, Validator<? super S, ? extends V> sourceValidator,
+		Converter<S, T> converter, Validator<? super T, ? extends V> targetValidator, BinderCallback<V> callback)
+	{
+		this.source = checkNotNull(source, "source cannot be null");
+		this.sourceValidator = sourceValidator;
+		this.converter = checkNotNull(converter, "converter cannot be null");
+		this.targetValidator = targetValidator;
+		this.callback = checkNotNull(callback, "callback cannot be null");
+	}
+	
+	// BindingBuilder methods ---------------------------------------------
+	
+	/**
+	 * {@inheritDoc}
+	 */
+	@Override
+	public Binding<S, T, V> to(Observable<T> target)
+	{
+		Binding<S, T, V> binding = new DefaultBinding<S, T, V>(source, sourceValidator, converter, targetValidator,
+			target);
+		
+		callback.built(binding);
+		
+		return binding;
+	}
+	
+	// public methods ---------------------------------------------------------
+	
+	public Observable<S> getSource()
+	{
+		return source;
+	}
+	
+	public Validator<? super S, ? extends V> getSourceValidator()
+	{
+		return sourceValidator;
+	}
+	
+	public Converter<S, T> getConverter()
+	{
+		return converter;
+	}
+	
+	public Validator<? super T, ? extends V> getTargetValidator()
+	{
+		return targetValidator;
+	}
+	
+	public BinderCallback<V> getCallback()
+	{
+		return callback;
+	}
+}
