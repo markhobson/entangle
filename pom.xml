@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!--
-	$HeadURL: https://svn.iizuka.co.uk/common/binding/api/tags/1.1.0-beta-1/pom.xml $
-	
-	(c) 2010 IIZUKA Software Technologies Ltd.  All rights reserved.
--->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
