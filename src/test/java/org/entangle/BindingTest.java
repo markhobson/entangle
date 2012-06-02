@@ -40,7 +40,6 @@ import static org.entangle.test.TestValidators.mockTargetValidator;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 
-
 import java.util.Collections;
 
 import org.entangle.Binding;

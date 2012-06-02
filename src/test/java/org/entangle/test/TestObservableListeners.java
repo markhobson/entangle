@@ -21,7 +21,6 @@ import org.entangle.ObservableListener;
 import org.jmock.Expectations;
 import org.jmock.Mockery;
 
-
 /**
  * 
  * 

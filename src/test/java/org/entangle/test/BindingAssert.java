@@ -22,7 +22,6 @@ import org.entangle.Converter;
 import org.entangle.Observable;
 import org.entangle.Validator;
 
-
 /**
  * Provides custom assertions for {@code Binding} implementations.
  * 

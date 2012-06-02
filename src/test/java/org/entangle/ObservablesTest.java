@@ -23,7 +23,6 @@ import org.entangle.Observables;
 import org.entangle.test.FakeBean;
 import org.junit.Test;
 
-
 /**
  * Tests {@code Observables}.
  * 

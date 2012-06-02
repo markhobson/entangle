@@ -22,7 +22,6 @@ import org.entangle.Validator;
 import org.jmock.Expectations;
 import org.jmock.Mockery;
 
-
 /**
  * 
  * 

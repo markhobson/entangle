@@ -19,7 +19,6 @@ import org.entangle.Converter;
 import org.jmock.Expectations;
 import org.jmock.Mockery;
 
-
 /**
  * 
  * 

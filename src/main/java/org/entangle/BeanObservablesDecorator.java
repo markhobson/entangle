@@ -20,7 +20,6 @@ import static org.entangle.Observables.compose;
 import org.entangle.Observables.BeanObservables;
 import org.entangle.Observables.ObservableFactory;
 
-
 /**
  * Decorates an observable with the {@code BeanObservables} builder methods.
  * 

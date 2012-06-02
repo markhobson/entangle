@@ -20,7 +20,6 @@ import org.entangle.Observables;
 import org.jmock.Expectations;
 import org.jmock.Mockery;
 
-
 /**
  * 
  * 

@@ -31,7 +31,6 @@ import org.entangle.Validator;
 import org.entangle.test.TestValidators;
 import org.junit.Test;
 
-
 /**
  * Tests {@code DefaultBinding}.
  * 

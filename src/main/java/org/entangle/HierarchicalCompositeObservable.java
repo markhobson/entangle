@@ -19,7 +19,6 @@ import static org.entangle.Utilities.checkNotNull;
 
 import org.entangle.Observables.ObservableFactory;
 
-
 /**
  * 
  * 
