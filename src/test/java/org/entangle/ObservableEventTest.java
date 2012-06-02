@@ -29,7 +29,6 @@ import org.junit.Test;
  * Tests {@code ObservableEvent}.
  * 
  * @author Mark Hobson
- * @version $Id: ObservableEventTest.java 97725 2012-01-11 15:45:41Z mark@IIZUKA.CO.UK $
  * @see ObservableEvent
  */
 public class ObservableEventTest

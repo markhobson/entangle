@@ -29,7 +29,6 @@ import org.entangle.PropertyObservable;
  * Provides custom assertions for {@code Observable} implementations.
  * 
  * @author Mark Hobson
- * @version $Id: ObservableAssert.java 97776 2012-01-16 11:32:07Z mark@IIZUKA.CO.UK $
  * @see Observable
  */
 public final class ObservableAssert

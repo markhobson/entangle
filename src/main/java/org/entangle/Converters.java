@@ -19,7 +19,6 @@ package org.entangle;
  * 
  * 
  * @author Mark Hobson
- * @version $Id: Converters.java 97382 2011-12-28 20:21:54Z mark@IIZUKA.CO.UK $
  */
 final class Converters
 {

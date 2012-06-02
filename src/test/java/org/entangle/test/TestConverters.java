@@ -23,7 +23,6 @@ import org.jmock.Mockery;
  * 
  * 
  * @author Mark Hobson
- * @version $Id: TestConverters.java 100485 2012-04-16 08:28:19Z mark@IIZUKA.CO.UK $
  */
 public final class TestConverters
 {

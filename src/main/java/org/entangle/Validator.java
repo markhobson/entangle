@@ -21,7 +21,6 @@ import java.util.Collection;
  * A validator that can validate an object.
  * 
  * @author Mark Hobson
- * @version $Id: Validator.java 96822 2011-12-16 13:09:13Z mark@IIZUKA.CO.UK $
  * @param <T>
  *            the type this validator validates
  * @param <V>

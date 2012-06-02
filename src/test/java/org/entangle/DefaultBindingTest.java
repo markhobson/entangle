@@ -35,7 +35,6 @@ import org.junit.Test;
  * Tests {@code DefaultBinding}.
  * 
  * @author Mark Hobson
- * @version $Id: DefaultBindingTest.java 97694 2012-01-11 10:07:06Z mark@IIZUKA.CO.UK $
  * @see DefaultBinding
  */
 public class DefaultBindingTest extends BindingTest

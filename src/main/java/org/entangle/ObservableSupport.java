@@ -26,7 +26,6 @@ import javax.swing.event.EventListenerList;
  * 
  * 
  * @author Mark Hobson
- * @version $Id: ObservableSupport.java 97740 2012-01-13 15:52:19Z mark@IIZUKA.CO.UK $
  * @param <T>
  *            the type being observed
  */

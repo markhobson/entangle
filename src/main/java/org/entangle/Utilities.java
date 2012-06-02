@@ -19,7 +19,6 @@ package org.entangle;
  * 
  * 
  * @author Mark Hobson
- * @version $Id: Utilities.java 97740 2012-01-13 15:52:19Z mark@IIZUKA.CO.UK $
  */
 final class Utilities
 {

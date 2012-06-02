@@ -19,7 +19,6 @@ package org.entangle;
  * A value whose changes can be observed.
  * 
  * @author Mark Hobson
- * @version $Id: Observable.java 96822 2011-12-16 13:09:13Z mark@IIZUKA.CO.UK $
  * @param <T>
  *            the type being observed
  */

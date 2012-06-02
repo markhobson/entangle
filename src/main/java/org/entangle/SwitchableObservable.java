@@ -19,7 +19,6 @@ package org.entangle;
  * {@code Observable} decorator that maintains registered listeners when delegate changed.
  * 
  * @author Mark Hobson
- * @version $Id: SwitchableObservable.java 97740 2012-01-13 15:52:19Z mark@IIZUKA.CO.UK $
  * @param <T>
  *            the type being observed
  */

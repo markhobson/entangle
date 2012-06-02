@@ -22,7 +22,6 @@ import org.entangle.Binder.SourceValidatableBindingBuilder;
  * 
  * 
  * @author Mark Hobson
- * @version $Id: DefaultSourceValidatableBindingBuilder.java 101059 2012-05-03 13:39:52Z mark@IIZUKA.CO.UK $
  * @param <S>
  *            the source type of the binding being built
  * @param <V>

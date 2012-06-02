@@ -23,7 +23,6 @@ import org.entangle.Observables.ObservableFactory;
  * 
  * 
  * @author Mark Hobson
- * @version $Id: HierarchicalCompositeObservable.java 97957 2012-01-24 12:31:57Z mark@IIZUKA.CO.UK $
  * @param <T>
  *            the parent type being observed
  * @param <U>

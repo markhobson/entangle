@@ -19,7 +19,6 @@ package org.entangle;
  * 
  * 
  * @author Mark Hobson
- * @version $Id: ClassUtils.java 89097 2011-06-20 10:04:32Z mark@IIZUKA.CO.UK $
  */
 final class ClassUtils
 {

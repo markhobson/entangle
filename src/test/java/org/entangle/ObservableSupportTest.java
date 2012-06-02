@@ -32,7 +32,6 @@ import org.junit.runner.RunWith;
  * Tests {@code ObservableSupport}.
  * 
  * @author Mark Hobson
- * @version $Id: ObservableSupportTest.java 97741 2012-01-13 16:01:26Z mark@IIZUKA.CO.UK $
  * @see ObservableSupport
  */
 @RunWith(JMock.class)

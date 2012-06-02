@@ -22,7 +22,6 @@ import java.beans.PropertyChangeSupport;
  * 
  * 
  * @author Mark Hobson
- * @version $Id: FakeBoundBean.java 97740 2012-01-13 15:52:19Z mark@IIZUKA.CO.UK $
  */
 public class FakeBoundBean
 {

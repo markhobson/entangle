@@ -57,7 +57,6 @@ import org.junit.runner.RunWith;
  * Tests {@code Binder} implementations.
  * 
  * @author Mark Hobson
- * @version $Id: BinderTest.java 101059 2012-05-03 13:39:52Z mark@IIZUKA.CO.UK $
  * @see Binder
  */
 @RunWith(JMock.class)

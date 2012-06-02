@@ -24,7 +24,6 @@ import java.util.List;
  * Default {@code Binder} implementation.
  * 
  * @author Mark Hobson
- * @version $Id: DefaultBinder.java 98363 2012-02-09 15:01:09Z mark@IIZUKA.CO.UK $
  * @param <V>
  *            the type of violation that this binder can produce
  * @see Binder

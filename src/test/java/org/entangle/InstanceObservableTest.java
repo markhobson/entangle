@@ -32,7 +32,6 @@ import org.junit.runner.RunWith;
  * Tests {@code InstanceObservable}.
  * 
  * @author Mark Hobson
- * @version $Id: InstanceObservableTest.java 97741 2012-01-13 16:01:26Z mark@IIZUKA.CO.UK $
  * @see InstanceObservable
  */
 @RunWith(JMock.class)

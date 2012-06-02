@@ -19,7 +19,6 @@ package org.entangle;
  * 
  * 
  * @author Mark Hobson
- * @version $Id: NullObservable.java 97409 2011-12-30 17:27:16Z mark@IIZUKA.CO.UK $
  */
 enum NullObservable implements Observable<Object>
 {

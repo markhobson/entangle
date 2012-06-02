@@ -27,7 +27,6 @@ import org.junit.Test;
  * Tests {@code Observables}.
  * 
  * @author Mark Hobson
- * @version $Id: ObservablesTest.java 97776 2012-01-16 11:32:07Z mark@IIZUKA.CO.UK $
  * @see Observables
  */
 public class ObservablesTest

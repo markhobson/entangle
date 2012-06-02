@@ -24,7 +24,6 @@ import org.entangle.Observables.ObservableFactory;
  * Decorates an observable with the {@code BeanObservables} builder methods.
  * 
  * @author Mark Hobson
- * @version $Id: BeanObservablesDecorator.java 97957 2012-01-24 12:31:57Z mark@IIZUKA.CO.UK $
  * @param <T>
  *            the type being observed
  */

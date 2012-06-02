@@ -19,7 +19,6 @@ package org.entangle;
  * 
  * 
  * @author Mark Hobson
- * @version $Id: AbstractObservable.java 96678 2011-12-15 09:50:22Z mark@IIZUKA.CO.UK $
  * @param <T> 
  *            the type being observed
  */

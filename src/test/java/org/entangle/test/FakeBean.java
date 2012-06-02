@@ -19,7 +19,6 @@ package org.entangle.test;
  * 
  * 
  * @author Mark Hobson
- * @version $Id: FakeBean.java 97580 2012-01-05 11:42:20Z mark@IIZUKA.CO.UK $
  */
 public class FakeBean
 {

@@ -37,7 +37,6 @@ import org.junit.runner.RunWith;
  * Tests {@code PropertyObservable}.
  * 
  * @author Mark Hobson
- * @version $Id: PropertyObservableTest.java 97741 2012-01-13 16:01:26Z mark@IIZUKA.CO.UK $
  * @see PropertyObservable
  */
 @RunWith(JMock.class)

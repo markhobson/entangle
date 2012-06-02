@@ -30,7 +30,6 @@ import org.junit.runner.RunWith;
  * Tests {@code NullObservable}.
  * 
  * @author Mark Hobson
- * @version $Id: NullObservableTest.java 97409 2011-12-30 17:27:16Z mark@IIZUKA.CO.UK $
  * @see NullObservable
  */
 @RunWith(JMock.class)

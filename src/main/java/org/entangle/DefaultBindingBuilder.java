@@ -23,7 +23,6 @@ import org.entangle.Binder.BindingBuilder;
  * 
  * 
  * @author Mark Hobson
- * @version $Id: DefaultBindingBuilder.java 101059 2012-05-03 13:39:52Z mark@IIZUKA.CO.UK $
  * @param <S>
  *            the source type of the binding being built
  * @param <T>

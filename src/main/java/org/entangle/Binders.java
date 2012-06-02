@@ -19,7 +19,6 @@ package org.entangle;
  * Factory for creating binders.
  * 
  * @author Mark Hobson
- * @version $Id: Binders.java 97099 2011-12-21 13:16:43Z mark@IIZUKA.CO.UK $
  * @see Binder
  */
 public final class Binders

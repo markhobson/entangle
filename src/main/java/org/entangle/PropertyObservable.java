@@ -30,7 +30,6 @@ import java.util.Map;
  * 
  * 
  * @author Mark Hobson
- * @version $Id: PropertyObservable.java 98707 2012-02-23 12:47:17Z mark@IIZUKA.CO.UK $
  * @param <T> 
  *            the type being observed
  */

@@ -22,7 +22,6 @@ import org.entangle.DefaultBinder;
  * Tests {@code DefaultBinder}.
  * 
  * @author Mark Hobson
- * @version $Id: DefaultBinderTest.java 97099 2011-12-21 13:16:43Z mark@IIZUKA.CO.UK $
  * @see DefaultBinder
  */
 public class DefaultBinderTest extends BinderTest

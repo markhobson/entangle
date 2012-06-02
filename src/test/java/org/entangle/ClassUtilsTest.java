@@ -25,7 +25,6 @@ import org.junit.Test;
  * Tests {@code ClassUtils}.
  * 
  * @author Mark Hobson
- * @version $Id: ClassUtilsTest.java 89097 2011-06-20 10:04:32Z mark@IIZUKA.CO.UK $
  * @see ClassUtils
  */
 public class ClassUtilsTest

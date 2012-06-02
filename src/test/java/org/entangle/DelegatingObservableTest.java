@@ -27,7 +27,6 @@ import org.junit.Test;
  * Tests {@code DelegatingObservable}.
  * 
  * @author Mark Hobson
- * @version $Id: DelegatingObservableTest.java 97962 2012-01-24 12:44:13Z mark@IIZUKA.CO.UK $
  * @see DelegatingObservable
  */
 public class DelegatingObservableTest

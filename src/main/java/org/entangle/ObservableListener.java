@@ -21,7 +21,6 @@ import java.util.EventListener;
  * 
  * 
  * @author Mark Hobson
- * @version $Id: ObservableListener.java 88825 2011-06-08 21:18:39Z mark@IIZUKA.CO.UK $
  * @param <T> 
  *            the type being observed
  */

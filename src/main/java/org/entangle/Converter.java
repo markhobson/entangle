@@ -19,7 +19,6 @@ package org.entangle;
  * A converter that can convert an object from one type to another and optionally back again.
  * 
  * @author Mark Hobson
- * @version $Id: Converter.java 97382 2011-12-28 20:21:54Z mark@IIZUKA.CO.UK $
  * @param <S>
  *            the type that this converter converts from
  * @param <T>

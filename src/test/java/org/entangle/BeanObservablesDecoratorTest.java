@@ -37,7 +37,6 @@ import org.junit.runner.RunWith;
  * Tests {@code BeanObservablesDecorator}.
  * 
  * @author Mark Hobson
- * @version $Id: BeanObservablesDecoratorTest.java 97959 2012-01-24 12:42:29Z mark@IIZUKA.CO.UK $
  * @see BeanObservablesDecorator
  */
 @RunWith(JMock.class)

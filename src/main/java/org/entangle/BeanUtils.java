@@ -33,7 +33,6 @@ import java.util.EventListener;
  * 
  * 
  * @author Mark Hobson
- * @version $Id: BeanUtils.java 97601 2012-01-05 15:47:57Z mark@IIZUKA.CO.UK $
  */
 final class BeanUtils
 {

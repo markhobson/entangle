@@ -21,7 +21,6 @@ import java.util.Collection;
  * A binding between two observable values.
  * 
  * @author Mark Hobson
- * @version $Id: Binding.java 101059 2012-05-03 13:39:52Z mark@IIZUKA.CO.UK $
  * @param <S>
  *            the source type of this binding
  * @param <T>

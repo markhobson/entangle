@@ -21,7 +21,6 @@ import static org.entangle.Utilities.checkNotNull;
  * {@code Observable} implementation that delegates to another.
  * 
  * @author Mark Hobson
- * @version $Id: DelegatingObservable.java 97740 2012-01-13 15:52:19Z mark@IIZUKA.CO.UK $
  * @param <T>
  *            the type being observed
  */

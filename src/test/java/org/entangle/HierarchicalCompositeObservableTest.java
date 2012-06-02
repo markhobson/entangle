@@ -35,7 +35,6 @@ import org.junit.runner.RunWith;
  * Tests {@code HierarchicalCompositeObservable}.
  * 
  * @author Mark Hobson
- * @version $Id: HierarchicalCompositeObservableTest.java 97957 2012-01-24 12:31:57Z mark@IIZUKA.CO.UK $
  * @see HierarchicalCompositeObservable
  */
 @RunWith(JMock.class)

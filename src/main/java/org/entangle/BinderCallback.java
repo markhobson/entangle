@@ -19,7 +19,6 @@ package org.entangle;
  * 
  * 
  * @author Mark Hobson
- * @version $Id: BinderCallback.java 97110 2011-12-21 13:44:26Z mark@IIZUKA.CO.UK $
  * @param <V> 
  *            the binding violation type that this callback accepts
  */

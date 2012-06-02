@@ -19,7 +19,6 @@ package org.entangle;
  * Factory for creating observables.
  * 
  * @author Mark Hobson
- * @version $Id: Observables.java 97824 2012-01-17 10:25:46Z mark@IIZUKA.CO.UK $
  * @see Observable
  */
 public final class Observables

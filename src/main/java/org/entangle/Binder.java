@@ -49,7 +49,6 @@ import java.util.List;
  * </pre>
  * 
  * @author Mark Hobson
- * @version $Id: Binder.java 101059 2012-05-03 13:39:52Z mark@IIZUKA.CO.UK $
  * @param <V> 
  *            the type of violation that this binder can produce
  * @see Binders#newBinder()

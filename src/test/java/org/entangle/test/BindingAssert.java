@@ -26,7 +26,6 @@ import org.entangle.Validator;
  * Provides custom assertions for {@code Binding} implementations.
  * 
  * @author Mark Hobson
- * @version $Id: BindingAssert.java 97694 2012-01-11 10:07:06Z mark@IIZUKA.CO.UK $
  * @see Binding
  */
 public final class BindingAssert

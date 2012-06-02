@@ -27,7 +27,6 @@ import java.util.Map;
  * 
  * 
  * @author Mark Hobson
- * @version $Id: BeanObservable.java 97776 2012-01-16 11:32:07Z mark@IIZUKA.CO.UK $
  * @param <T>
  *            the type being observed
  */

@@ -24,7 +24,6 @@ import java.util.EventObject;
  * 
  * 
  * @author Mark Hobson
- * @version $Id: ObservableEvent.java 97725 2012-01-11 15:45:41Z mark@IIZUKA.CO.UK $
  * @param <T> 
  *            the type being observed
  */

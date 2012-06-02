@@ -30,7 +30,6 @@ import java.util.Collection;
  * Default {@code Binding} implementation.
  * 
  * @author Mark Hobson
- * @version $Id: DefaultBinding.java 101059 2012-05-03 13:39:52Z mark@IIZUKA.CO.UK $
  * @param <S>
  *            the source type of this binding
  * @param <T>
