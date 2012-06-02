@@ -22,9 +22,9 @@
 	<name>Common Binding API</name>
 	
 	<scm>
-		<connection>scm:svn:https://svn.iizuka.co.uk/common/binding/api/tags/1.1.0-beta-1</connection>
-		<developerConnection>scm:svn:https://svn.iizuka.co.uk/common/binding/api/tags/1.1.0-beta-1</developerConnection>
-		<url>https://svn.iizuka.co.uk/common/binding/api/tags/1.1.0-beta-1</url>
+		<connection>scm:git:git@github.com:markhobson/entangle.git</connection>
+		<developerConnection>scm:git:git@github.com:markhobson/entangle.git</developerConnection>
+		<url>scm:git:git@github.com:markhobson/entangle.git</url>
 	</scm>
 	
 	<dependencies>
