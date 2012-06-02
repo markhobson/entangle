@@ -9,6 +9,29 @@
 	<version>0.1.0-SNAPSHOT</version>
 	
 	<name>Entangle</name>
+	<description>A simple data-binding framework for Java.</description>
+	<url>https://github.com/markhobson/entangle</url>
+	<inceptionYear>2011</inceptionYear>
+	
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	
+	<developers>
+		<developer>
+			<id>markhobson</id>
+			<name>Mark Hobson</name>
+			<email>markhobson@gmail.com</email>
+			<roles>
+				<role>Project Lead</role>
+			</roles>
+			<timezone>0</timezone>
+		</developer>
+	</developers>
 	
 	<scm>
 		<connection>scm:git:git@github.com:markhobson/entangle.git</connection>
