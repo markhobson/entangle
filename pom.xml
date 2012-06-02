@@ -56,6 +56,11 @@
 		<url>scm:git:git@github.com:markhobson/entangle.git</url>
 	</scm>
 	
+	<issueManagement>
+		<system>GitHub</system>
+		<url>https://github.com/markhobson/entangle/issues</url>
+	</issueManagement>
+	
 	<build>
 		<pluginManagement>
 			<plugins>
