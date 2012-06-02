@@ -47,7 +47,6 @@ abstract class DelegatingObservable<T> implements Observable<T>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public void addObservableListener(ObservableListener<T> listener)
 	{
 		delegate.addObservableListener(listener);
@@ -56,7 +55,6 @@ abstract class DelegatingObservable<T> implements Observable<T>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public void removeObservableListener(ObservableListener<T> listener)
 	{
 		delegate.removeObservableListener(listener);
@@ -65,7 +63,6 @@ abstract class DelegatingObservable<T> implements Observable<T>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public T getValue()
 	{
 		return delegate.getValue();
@@ -74,7 +71,6 @@ abstract class DelegatingObservable<T> implements Observable<T>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public void setValue(T value)
 	{
 		delegate.setValue(value);

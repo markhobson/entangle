@@ -31,7 +31,6 @@ enum NullObservable implements Observable<Object>
 		/**
 		 * {@inheritDoc}
 		 */
-		@Override
 		public void addObservableListener(ObservableListener<Object> listener)
 		{
 			// no-op
@@ -40,7 +39,6 @@ enum NullObservable implements Observable<Object>
 		/**
 		 * {@inheritDoc}
 		 */
-		@Override
 		public void removeObservableListener(ObservableListener<Object> listener)
 		{
 			// no-op
@@ -49,7 +47,6 @@ enum NullObservable implements Observable<Object>
 		/**
 		 * {@inheritDoc}
 		 */
-		@Override
 		public Object getValue()
 		{
 			return null;
@@ -58,7 +55,6 @@ enum NullObservable implements Observable<Object>
 		/**
 		 * {@inheritDoc}
 		 */
-		@Override
 		public void setValue(Object value)
 		{
 			// no-op

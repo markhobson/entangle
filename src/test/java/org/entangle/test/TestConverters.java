@@ -48,7 +48,6 @@ public final class TestConverters
 		/**
 		 * {@inheritDoc}
 		 */
-		@Override
 		public S unconvert(T target)
 		{
 			throw new UnsupportedOperationException();
@@ -62,7 +61,6 @@ public final class TestConverters
 		/**
 		 * {@inheritDoc}
 		 */
-		@Override
 		public final T unconvert(T target)
 		{
 			return convert(target);
@@ -76,7 +74,6 @@ public final class TestConverters
 		/**
 		 * {@inheritDoc}
 		 */
-		@Override
 		public final String convert(T target)
 		{
 			return String.valueOf(target);
@@ -87,7 +84,6 @@ public final class TestConverters
 	
 	private static final Converter<Object, Object> IDENTITY = new IdentityConverter<Object>()
 	{
-		@Override
 		public Object convert(Object target)
 		{
 			return target;
@@ -99,7 +95,6 @@ public final class TestConverters
 	private static final Converter<Object, CharSequence> TO_CHAR_SEQUENCE
 		= new UnidirectionalConverter<Object, CharSequence>()
 	{
-		@Override
 		public CharSequence convert(Object target)
 		{
 			return String.valueOf(target);
@@ -117,7 +112,6 @@ public final class TestConverters
 		
 	private static final Converter<Object, Object> THROW_EXCEPTION = new IdentityConverter<Object>()
 	{
-		@Override
 		public Object convert(Object target)
 		{
 			throw new Exception();
@@ -236,13 +230,11 @@ public final class TestConverters
 	{
 		return new Converter<T, S>()
 		{
-			@Override
 			public S convert(T target)
 			{
 				return converter.unconvert(target);
 			}
 			
-			@Override
 			public T unconvert(S source)
 			{
 				return converter.convert(source);

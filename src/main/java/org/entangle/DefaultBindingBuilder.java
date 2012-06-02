@@ -61,7 +61,6 @@ class DefaultBindingBuilder<S, T, V> implements BindingBuilder<S, T, V>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public Binding<S, T, V> to(Observable<T> target)
 	{
 		Binding<S, T, V> binding = new DefaultBinding<S, T, V>(source, sourceValidator, converter, targetValidator,

@@ -46,7 +46,6 @@ class DefaultTargetValidatableBindingBuilder<S, T, V>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public BindingBuilder<S, T, V> checking(Validator<? super T, ? extends V> targetValidator)
 	{
 		return new DefaultBindingBuilder<S, T, V>(getSource(), getSourceValidator(), getConverter(), targetValidator,

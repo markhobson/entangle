@@ -133,7 +133,6 @@ public class HierarchicalCompositeObservableTest
 	{
 		return new ObservableFactory<T, U>()
 		{
-			@Override
 			public Observable<U> createObservable(T value)
 			{
 				return observable;

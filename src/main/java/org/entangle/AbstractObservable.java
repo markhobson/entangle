@@ -40,7 +40,6 @@ abstract class AbstractObservable<T> implements Observable<T>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public final void addObservableListener(ObservableListener<T> listener)
 	{
 		support.addObservableListener(listener);
@@ -49,7 +48,6 @@ abstract class AbstractObservable<T> implements Observable<T>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public final void removeObservableListener(ObservableListener<T> listener)
 	{
 		support.removeObservableListener(listener);

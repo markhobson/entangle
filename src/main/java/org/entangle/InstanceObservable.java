@@ -45,7 +45,6 @@ final class InstanceObservable<T> extends AbstractObservable<T>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public T getValue()
 	{
 		return value;
@@ -54,7 +53,6 @@ final class InstanceObservable<T> extends AbstractObservable<T>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public void setValue(T value)
 	{
 		T oldValue = this.value;

@@ -38,7 +38,6 @@ class HierarchicalCompositeObservable<T, U> extends SwitchableObservable<U>
 
 	private final ObservableListener<T> parentListener = new ObservableListener<T>()
 	{
-		@Override
 		public void valueChanged(ObservableEvent<T> event)
 		{
 			updateDelegate();

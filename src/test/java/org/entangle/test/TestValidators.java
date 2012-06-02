@@ -52,7 +52,6 @@ public final class TestValidators
 	
 	private static final Validator<Object, String> THROW_EXCEPTION = new Validator<Object, String>()
 	{
-		@Override
 		public Collection<String> validate(Object object)
 		{
 			throw new Exception();
@@ -87,7 +86,6 @@ public final class TestValidators
 	{
 		return new Validator<T, String>()
 		{
-			@Override
 			public Collection<String> validate(T object)
 			{
 				return null;
@@ -109,7 +107,6 @@ public final class TestValidators
 	{
 		return new Validator<T, String>()
 		{
-			@Override
 			public Collection<String> validate(T object)
 			{
 				return Arrays.asList(violations);
@@ -121,7 +118,6 @@ public final class TestValidators
 	{
 		return new Validator<T, String>()
 		{
-			@Override
 			public Collection<String> validate(T object)
 			{
 				return safeEquals(value, object) ? null : Arrays.asList(violations);

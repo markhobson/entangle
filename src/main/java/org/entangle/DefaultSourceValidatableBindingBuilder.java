@@ -43,7 +43,6 @@ class DefaultSourceValidatableBindingBuilder<S, V>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public ConvertableBindingBuilder<S, S, V> checking(Validator<? super S, ? extends V> sourceValidator)
 	{
 		return new DefaultConvertableBindingBuilder<S, S, V>(getSource(), sourceValidator, getConverter(),

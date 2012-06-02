@@ -54,7 +54,6 @@ class DefaultBinding<S, T, V> implements Binding<S, T, V>
 	
 	private final ObservableListener<S> sourceListener = new ObservableListener<S>()
 	{
-		@Override
 		public void valueChanged(ObservableEvent<S> event)
 		{
 			pushUpTo(boundPhase);
@@ -63,7 +62,6 @@ class DefaultBinding<S, T, V> implements Binding<S, T, V>
 	
 	private final ObservableListener<T> targetListener = new ObservableListener<T>()
 	{
-		@Override
 		public void valueChanged(ObservableEvent<T> event)
 		{
 			pullUpTo(boundPhase);
@@ -102,7 +100,6 @@ class DefaultBinding<S, T, V> implements Binding<S, T, V>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public void bind()
 	{
 		bindUpTo(SET);
@@ -111,7 +108,6 @@ class DefaultBinding<S, T, V> implements Binding<S, T, V>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public void bindUpTo(Phase phase)
 	{
 		checkUnbound();
@@ -128,7 +124,6 @@ class DefaultBinding<S, T, V> implements Binding<S, T, V>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public void unbind()
 	{
 		checkBound();
@@ -142,7 +137,6 @@ class DefaultBinding<S, T, V> implements Binding<S, T, V>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public void push()
 	{
 		pushUpTo(SET);
@@ -151,7 +145,6 @@ class DefaultBinding<S, T, V> implements Binding<S, T, V>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public void pushUpTo(Phase phase)
 	{
 		// get
@@ -195,7 +188,6 @@ class DefaultBinding<S, T, V> implements Binding<S, T, V>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public void pull()
 	{
 		pullUpTo(Phase.SET);
@@ -204,7 +196,6 @@ class DefaultBinding<S, T, V> implements Binding<S, T, V>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public void pullUpTo(Phase phase)
 	{
 		// get
@@ -260,7 +251,6 @@ class DefaultBinding<S, T, V> implements Binding<S, T, V>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public Observable<S> getSource()
 	{
 		return source;
@@ -269,7 +259,6 @@ class DefaultBinding<S, T, V> implements Binding<S, T, V>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public Validator<? super S, ? extends V> getSourceValidator()
 	{
 		return sourceValidator;
@@ -278,7 +267,6 @@ class DefaultBinding<S, T, V> implements Binding<S, T, V>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public Converter<S, T> getConverter()
 	{
 		return converter;
@@ -287,7 +275,6 @@ class DefaultBinding<S, T, V> implements Binding<S, T, V>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public Validator<? super T, ? extends V> getTargetValidator()
 	{
 		return targetValidator;
@@ -296,7 +283,6 @@ class DefaultBinding<S, T, V> implements Binding<S, T, V>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public Observable<T> getTarget()
 	{
 		return target;
@@ -307,7 +293,6 @@ class DefaultBinding<S, T, V> implements Binding<S, T, V>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public void addObservableListener(ObservableListener<Collection<V>> listener)
 	{
 		support.addObservableListener(listener);
@@ -316,7 +301,6 @@ class DefaultBinding<S, T, V> implements Binding<S, T, V>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public void removeObservableListener(ObservableListener<Collection<V>> listener)
 	{
 		support.removeObservableListener(listener);
@@ -325,7 +309,6 @@ class DefaultBinding<S, T, V> implements Binding<S, T, V>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public Collection<V> getValue()
 	{
 		return violations;
@@ -334,7 +317,6 @@ class DefaultBinding<S, T, V> implements Binding<S, T, V>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public void setValue(Collection<V> value)
 	{
 		throw new UnsupportedOperationException("Binding violations are immutable");

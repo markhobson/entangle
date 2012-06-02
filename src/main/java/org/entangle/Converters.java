@@ -26,13 +26,11 @@ final class Converters
 	
 	private static final Converter<Object, Object> IDENTITY = new Converter<Object, Object>()
 	{
-		@Override
 		public Object convert(Object object)
 		{
 			return object;
 		}
 
-		@Override
 		public Object unconvert(Object object)
 		{
 			return object;

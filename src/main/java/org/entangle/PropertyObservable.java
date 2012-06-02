@@ -78,7 +78,6 @@ final class PropertyObservable<T> implements Observable<T>
 		/**
 		 * {@inheritDoc}
 		 */
-		@Override
 		public void propertyChange(PropertyChangeEvent event)
 		{
 			T oldValue = getBoxedPropertyType().cast(event.getOldValue());
@@ -146,7 +145,6 @@ final class PropertyObservable<T> implements Observable<T>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public void addObservableListener(ObservableListener<T> listener)
 	{
 		checkPropertyBound();
@@ -163,7 +161,6 @@ final class PropertyObservable<T> implements Observable<T>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public void removeObservableListener(ObservableListener<T> listener)
 	{
 		checkPropertyBound();
@@ -180,7 +177,6 @@ final class PropertyObservable<T> implements Observable<T>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public T getValue()
 	{
 		Object value = BeanUtils.getPropertyValue(bean, propertyName);
@@ -191,7 +187,6 @@ final class PropertyObservable<T> implements Observable<T>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public void setValue(T value)
 	{
 		BeanUtils.setPropertyValue(bean, propertyName, value);

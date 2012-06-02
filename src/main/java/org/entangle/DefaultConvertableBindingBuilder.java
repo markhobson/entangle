@@ -46,7 +46,6 @@ class DefaultConvertableBindingBuilder<S, T, V>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public <U> TargetValidatableBindingBuilder<S, U, V> using(Converter<S, U> converter)
 	{
 		return new DefaultTargetValidatableBindingBuilder<S, U, V>(getSource(), getSourceValidator(), converter,

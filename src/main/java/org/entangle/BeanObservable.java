@@ -56,7 +56,6 @@ class BeanObservable<T> implements Observable<T>
 		/**
 		 * {@inheritDoc}
 		 */
-		@Override
 		public void propertyChange(PropertyChangeEvent event)
 		{
 			Observable<T> source = BeanObservable.this;
@@ -94,7 +93,6 @@ class BeanObservable<T> implements Observable<T>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public void addObservableListener(ObservableListener<T> listener)
 	{
 		checkBeanBound();
@@ -111,7 +109,6 @@ class BeanObservable<T> implements Observable<T>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public void removeObservableListener(ObservableListener<T> listener)
 	{
 		checkBeanBound();
@@ -128,7 +125,6 @@ class BeanObservable<T> implements Observable<T>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public T getValue()
 	{
 		return bean;
@@ -137,7 +133,6 @@ class BeanObservable<T> implements Observable<T>
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public void setValue(T value)
 	{
 		throw new UnsupportedOperationException("Bean is read-only");

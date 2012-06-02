@@ -46,7 +46,6 @@ class BeanObservablesDecorator<T> extends DelegatingObservable<T> implements Bea
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public final BeanObservables<Object> property(String propertyName)
 	{
 		return property(propertyName, Object.class);
@@ -55,7 +54,6 @@ class BeanObservablesDecorator<T> extends DelegatingObservable<T> implements Bea
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public <U> BeanObservables<U> property(String propertyName, Class<U> propertyType)
 	{
 		BeanObservablesDecorator<U> property = new BeanObservablesDecorator<U>();
@@ -68,7 +66,6 @@ class BeanObservablesDecorator<T> extends DelegatingObservable<T> implements Bea
 	/**
 	 * {@inheritDoc}
 	 */
-	@Override
 	public final Observable<String> string(String propertyName)
 	{
 		return property(propertyName, String.class);
@@ -105,7 +102,6 @@ class BeanObservablesDecorator<T> extends DelegatingObservable<T> implements Bea
 	{
 		return new ObservableFactory<T, U>()
 		{
-			@Override
 			public Observable<U> createObservable(T bean)
 			{
 				return (bean != null) ? new PropertyObservable<U>(source, bean, propertyName, propertyType) : null;
