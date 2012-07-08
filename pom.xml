@@ -101,6 +101,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-resources-plugin</artifactId>
+					<!-- TODO: upgrade to 2.6 for MRESOURCES-140 when released -->
 					<version>2.4.3</version>
 				</plugin>
 				<plugin>
