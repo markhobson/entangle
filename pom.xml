@@ -53,7 +53,7 @@
 	<scm>
 		<connection>scm:git:git@github.com:markhobson/entangle.git</connection>
 		<developerConnection>scm:git:git@github.com:markhobson/entangle.git</developerConnection>
-		<url>scm:git:git@github.com:markhobson/entangle.git</url>
+		<url>https://github.com/markhobson/entangle.git</url>
 	</scm>
 	
 	<issueManagement>
