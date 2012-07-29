@@ -43,20 +43,6 @@
 		<url>https://github.com/markhobson/entangle/issues</url>
 	</issueManagement>
 	
-	<build>
-		<pluginManagement>
-			<plugins>
-				<plugin>
-					<groupId>com.github.github</groupId>
-					<artifactId>site-maven-plugin</artifactId>
-					<configuration>
-						<server>github</server>
-					</configuration>
-				</plugin>
-			</plugins>
-		</pluginManagement>
-	</build>
-	
 	<dependencies>
 	
 		<!-- test -->
