@@ -13,14 +13,14 @@
  */
 package org.hobsoft.entangle;
 
-import static org.hobsoft.entangle.test.BindingAssert.assertBinding;
-import static org.hobsoft.entangle.test.TestConverters.toStringConverter;
-import static org.junit.Assert.assertEquals;
-
 import java.util.Collections;
 
 import org.hobsoft.entangle.test.TestValidators;
 import org.junit.Test;
+
+import static org.hobsoft.entangle.test.BindingAssert.assertBinding;
+import static org.hobsoft.entangle.test.TestConverters.toStringConverter;
+import static org.junit.Assert.assertEquals;
 
 /**
  * Tests {@code DefaultBinding}.

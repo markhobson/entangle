@@ -13,12 +13,6 @@
  */
 package org.hobsoft.entangle;
 
-import static org.hobsoft.entangle.ObservableAssert.assertPropertyObservable;
-import static org.hobsoft.entangle.test.TestObservableListeners.mockObservableListener;
-import static org.hobsoft.entangle.test.TestObservableListeners.mockObservableListenerWithValueChanged;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNull;
-
 import org.hobsoft.entangle.test.FakeBean;
 import org.hobsoft.entangle.test.FakeBoundBean;
 import org.jmock.Mockery;
@@ -28,6 +22,12 @@ import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+
+import static org.hobsoft.entangle.ObservableAssert.assertPropertyObservable;
+import static org.hobsoft.entangle.test.TestObservableListeners.mockObservableListener;
+import static org.hobsoft.entangle.test.TestObservableListeners.mockObservableListenerWithValueChanged;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNull;
 
 /**
  * Tests {@code PropertyObservable}.

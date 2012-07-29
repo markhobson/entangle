@@ -13,9 +13,9 @@
  */
 package org.hobsoft.entangle;
 
-import static org.hobsoft.entangle.Utilities.checkNotNull;
-
 import org.hobsoft.entangle.Binder.BindingBuilder;
+
+import static org.hobsoft.entangle.Utilities.checkNotNull;
 
 /**
  * 

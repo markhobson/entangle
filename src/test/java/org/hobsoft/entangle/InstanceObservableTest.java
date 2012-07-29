@@ -13,16 +13,16 @@
  */
 package org.hobsoft.entangle;
 
-import static org.hobsoft.entangle.ObservableAssert.assertInstanceObservable;
-import static org.hobsoft.entangle.test.TestObservableListeners.mockObservableListener;
-import static org.hobsoft.entangle.test.TestObservableListeners.mockObservableListenerWithValueChanged;
-import static org.junit.Assert.assertEquals;
-
 import org.jmock.Mockery;
 import org.jmock.integration.junit4.JMock;
 import org.jmock.integration.junit4.JUnit4Mockery;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+
+import static org.hobsoft.entangle.ObservableAssert.assertInstanceObservable;
+import static org.hobsoft.entangle.test.TestObservableListeners.mockObservableListener;
+import static org.hobsoft.entangle.test.TestObservableListeners.mockObservableListenerWithValueChanged;
+import static org.junit.Assert.assertEquals;
 
 /**
  * Tests {@code InstanceObservable}.

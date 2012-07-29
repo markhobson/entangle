@@ -13,12 +13,12 @@
  */
 package org.hobsoft.entangle.test;
 
-import static org.junit.Assert.assertSame;
-
 import org.hobsoft.entangle.Binding;
 import org.hobsoft.entangle.Converter;
 import org.hobsoft.entangle.Observable;
 import org.hobsoft.entangle.Validator;
+
+import static org.junit.Assert.assertSame;
 
 /**
  * Provides custom assertions for {@code Binding} implementations.

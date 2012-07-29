@@ -13,10 +13,10 @@
  */
 package org.hobsoft.entangle;
 
+import org.junit.Test;
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertSame;
-
-import org.junit.Test;
 
 /**
  * Tests {@code DelegatingObservable}.

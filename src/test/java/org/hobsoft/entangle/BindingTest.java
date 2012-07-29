@@ -13,7 +13,19 @@
  */
 package org.hobsoft.entangle;
 
+import java.util.Collections;
+
+import org.jmock.Expectations;
+import org.jmock.Mockery;
+import org.jmock.States;
+import org.jmock.integration.junit4.JMock;
+import org.jmock.integration.junit4.JUnit4Mockery;
+import org.jmock.internal.StatePredicate;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+
 import static java.util.Collections.singletonList;
+
 import static org.hobsoft.entangle.Binding.Phase.CONVERT;
 import static org.hobsoft.entangle.Binding.Phase.GET;
 import static org.hobsoft.entangle.Binding.Phase.SET;
@@ -36,17 +48,6 @@ import static org.hobsoft.entangle.test.TestValidators.mockSourceValidator;
 import static org.hobsoft.entangle.test.TestValidators.mockTargetValidator;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
-
-import java.util.Collections;
-
-import org.jmock.Expectations;
-import org.jmock.Mockery;
-import org.jmock.States;
-import org.jmock.integration.junit4.JMock;
-import org.jmock.integration.junit4.JUnit4Mockery;
-import org.jmock.internal.StatePredicate;
-import org.junit.Test;
-import org.junit.runner.RunWith;
 
 /**
  * Tests {@code Binding} implementations.

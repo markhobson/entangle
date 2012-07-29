@@ -13,15 +13,15 @@
  */
 package org.hobsoft.entangle;
 
-import static org.hobsoft.entangle.test.TestObservableListeners.mockObservableListener;
-import static org.junit.Assert.assertNull;
-
 import org.jmock.Mockery;
 import org.jmock.integration.junit4.JMock;
 import org.jmock.integration.junit4.JUnit4Mockery;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+
+import static org.hobsoft.entangle.test.TestObservableListeners.mockObservableListener;
+import static org.junit.Assert.assertNull;
 
 /**
  * Tests {@code NullObservable}.

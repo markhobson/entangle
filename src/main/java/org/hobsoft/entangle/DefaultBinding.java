@@ -13,6 +13,9 @@
  */
 package org.hobsoft.entangle;
 
+import java.util.ArrayList;
+import java.util.Collection;
+
 import static org.hobsoft.entangle.Binding.Phase.CONVERT;
 import static org.hobsoft.entangle.Binding.Phase.GET;
 import static org.hobsoft.entangle.Binding.Phase.SET;
@@ -20,9 +23,6 @@ import static org.hobsoft.entangle.Binding.Phase.VALIDATE_POST_GET;
 import static org.hobsoft.entangle.Binding.Phase.VALIDATE_PRE_SET;
 import static org.hobsoft.entangle.Utilities.checkNotNull;
 import static org.hobsoft.entangle.Utilities.checkState;
-
-import java.util.ArrayList;
-import java.util.Collection;
 
 /**
  * Default {@code Binding} implementation.

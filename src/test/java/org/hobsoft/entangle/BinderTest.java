@@ -13,9 +13,22 @@
  */
 package org.hobsoft.entangle;
 
+import java.util.Collections;
+
+import org.hobsoft.entangle.test.TestConverters;
+import org.hobsoft.entangle.test.TestValidators;
+import org.jmock.Mockery;
+import org.jmock.integration.junit4.JMock;
+import org.jmock.integration.junit4.JUnit4Mockery;
+import org.junit.Before;
+import org.junit.Ignore;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+
 import static java.util.Arrays.asList;
 import static java.util.Collections.emptyList;
 import static java.util.Collections.singletonList;
+
 import static org.hobsoft.entangle.test.TestConverters.integerToString;
 import static org.hobsoft.entangle.test.TestConverters.stringToInteger;
 import static org.hobsoft.entangle.test.TestObservableListeners.mockObservableListenerWithValueChanged;
@@ -31,18 +44,6 @@ import static org.hobsoft.entangle.test.TestValidators.validString;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
-
-import java.util.Collections;
-
-import org.hobsoft.entangle.test.TestConverters;
-import org.hobsoft.entangle.test.TestValidators;
-import org.jmock.Mockery;
-import org.jmock.integration.junit4.JMock;
-import org.jmock.integration.junit4.JUnit4Mockery;
-import org.junit.Before;
-import org.junit.Ignore;
-import org.junit.Test;
-import org.junit.runner.RunWith;
 
 /**
  * Tests {@code Binder} implementations.

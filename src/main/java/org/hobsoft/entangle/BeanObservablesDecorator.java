@@ -13,10 +13,10 @@
  */
 package org.hobsoft.entangle;
 
-import static org.hobsoft.entangle.Observables.compose;
-
 import org.hobsoft.entangle.Observables.BeanObservables;
 import org.hobsoft.entangle.Observables.ObservableFactory;
+
+import static org.hobsoft.entangle.Observables.compose;
 
 /**
  * Decorates an observable with the {@code BeanObservables} builder methods.

@@ -13,12 +13,12 @@
  */
 package org.hobsoft.entangle;
 
-import static org.hobsoft.entangle.Utilities.checkNotNull;
-import static org.hobsoft.entangle.Utilities.safeEquals;
-
 import java.util.EventListener;
 
 import javax.swing.event.EventListenerList;
+
+import static org.hobsoft.entangle.Utilities.checkNotNull;
+import static org.hobsoft.entangle.Utilities.safeEquals;
 
 /**
  * 

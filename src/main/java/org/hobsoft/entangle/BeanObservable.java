@@ -13,13 +13,13 @@
  */
 package org.hobsoft.entangle;
 
-import static org.hobsoft.entangle.Utilities.checkNotNull;
-
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.util.EventListenerProxy;
 import java.util.HashMap;
 import java.util.Map;
+
+import static org.hobsoft.entangle.Utilities.checkNotNull;
 
 /**
  * 

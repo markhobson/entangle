@@ -13,12 +13,12 @@
  */
 package org.hobsoft.entangle;
 
+import org.hobsoft.entangle.test.FakeBean;
+import org.junit.Test;
+
 import static org.hobsoft.entangle.ObservableAssert.assertDecoratedBeanObservable;
 import static org.hobsoft.entangle.ObservableAssert.assertInstanceObservable;
 import static org.hobsoft.entangle.ObservableAssert.assertNullObservable;
-
-import org.hobsoft.entangle.test.FakeBean;
-import org.junit.Test;
 
 /**
  * Tests {@code Observables}.

@@ -13,10 +13,10 @@
  */
 package org.hobsoft.entangle;
 
+import java.util.EventObject;
+
 import static org.hobsoft.entangle.Utilities.safeEquals;
 import static org.hobsoft.entangle.Utilities.safeHashCode;
-
-import java.util.EventObject;
 
 /**
  * 

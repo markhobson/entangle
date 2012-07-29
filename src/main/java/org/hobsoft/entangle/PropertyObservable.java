@@ -13,16 +13,16 @@
  */
 package org.hobsoft.entangle;
 
-import static org.hobsoft.entangle.Utilities.checkArgument;
-import static org.hobsoft.entangle.Utilities.checkNotNull;
-import static org.hobsoft.entangle.Utilities.firstNonNull;
-
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyDescriptor;
 import java.util.EventListener;
 import java.util.HashMap;
 import java.util.Map;
+
+import static org.hobsoft.entangle.Utilities.checkArgument;
+import static org.hobsoft.entangle.Utilities.checkNotNull;
+import static org.hobsoft.entangle.Utilities.firstNonNull;
 
 /**
  * 

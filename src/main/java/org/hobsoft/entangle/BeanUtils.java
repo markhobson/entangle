@@ -13,8 +13,6 @@
  */
 package org.hobsoft.entangle;
 
-import static org.hobsoft.entangle.Utilities.checkArgument;
-
 import java.beans.BeanInfo;
 import java.beans.EventSetDescriptor;
 import java.beans.FeatureDescriptor;
@@ -26,6 +24,8 @@ import java.beans.PropertyDescriptor;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.EventListener;
+
+import static org.hobsoft.entangle.Utilities.checkArgument;
 
 /**
  * 
