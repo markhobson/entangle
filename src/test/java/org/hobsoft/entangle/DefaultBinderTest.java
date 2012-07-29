@@ -13,8 +13,6 @@
  */
 package org.hobsoft.entangle;
 
-import org.hobsoft.entangle.Binder;
-import org.hobsoft.entangle.DefaultBinder;
 
 /**
  * Tests {@code DefaultBinder}.

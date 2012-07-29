@@ -16,9 +16,6 @@ package org.hobsoft.entangle;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertSame;
 
-import org.hobsoft.entangle.DelegatingObservable;
-import org.hobsoft.entangle.Observable;
-import org.hobsoft.entangle.Observables;
 import org.junit.Test;
 
 /**

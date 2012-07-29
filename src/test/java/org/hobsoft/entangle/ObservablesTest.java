@@ -17,7 +17,6 @@ import static org.hobsoft.entangle.ObservableAssert.assertDecoratedBeanObservabl
 import static org.hobsoft.entangle.ObservableAssert.assertInstanceObservable;
 import static org.hobsoft.entangle.ObservableAssert.assertNullObservable;
 
-import org.hobsoft.entangle.Observables;
 import org.hobsoft.entangle.test.FakeBean;
 import org.junit.Test;
 

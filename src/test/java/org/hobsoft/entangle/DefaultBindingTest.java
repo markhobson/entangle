@@ -19,13 +19,6 @@ import static org.junit.Assert.assertEquals;
 
 import java.util.Collections;
 
-import org.hobsoft.entangle.Binding;
-import org.hobsoft.entangle.Converter;
-import org.hobsoft.entangle.Converters;
-import org.hobsoft.entangle.DefaultBinding;
-import org.hobsoft.entangle.Observable;
-import org.hobsoft.entangle.Observables;
-import org.hobsoft.entangle.Validator;
 import org.hobsoft.entangle.test.TestValidators;
 import org.junit.Test;
 

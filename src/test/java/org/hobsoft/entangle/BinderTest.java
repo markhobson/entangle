@@ -16,7 +16,6 @@ package org.hobsoft.entangle;
 import static java.util.Arrays.asList;
 import static java.util.Collections.emptyList;
 import static java.util.Collections.singletonList;
-
 import static org.hobsoft.entangle.test.TestConverters.integerToString;
 import static org.hobsoft.entangle.test.TestConverters.stringToInteger;
 import static org.hobsoft.entangle.test.TestObservableListeners.mockObservableListenerWithValueChanged;
@@ -35,12 +34,6 @@ import static org.junit.Assert.assertNull;
 
 import java.util.Collections;
 
-import org.hobsoft.entangle.Binder;
-import org.hobsoft.entangle.Binders;
-import org.hobsoft.entangle.Binding;
-import org.hobsoft.entangle.Converter;
-import org.hobsoft.entangle.Observable;
-import org.hobsoft.entangle.Observables;
 import org.hobsoft.entangle.test.TestConverters;
 import org.hobsoft.entangle.test.TestValidators;
 import org.jmock.Mockery;

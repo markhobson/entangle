@@ -16,7 +16,6 @@ package org.hobsoft.entangle;
 import static org.hobsoft.entangle.test.TestObservableListeners.mockObservableListener;
 import static org.junit.Assert.assertNull;
 
-import org.hobsoft.entangle.NullObservable;
 import org.jmock.Mockery;
 import org.jmock.integration.junit4.JMock;
 import org.jmock.integration.junit4.JUnit4Mockery;

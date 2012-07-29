@@ -14,7 +14,6 @@
 package org.hobsoft.entangle;
 
 import static java.util.Collections.singletonList;
-
 import static org.hobsoft.entangle.Binding.Phase.CONVERT;
 import static org.hobsoft.entangle.Binding.Phase.GET;
 import static org.hobsoft.entangle.Binding.Phase.SET;
@@ -40,12 +39,6 @@ import static org.junit.Assert.assertNull;
 
 import java.util.Collections;
 
-import org.hobsoft.entangle.Binding;
-import org.hobsoft.entangle.Converter;
-import org.hobsoft.entangle.Converters;
-import org.hobsoft.entangle.Observable;
-import org.hobsoft.entangle.Observables;
-import org.hobsoft.entangle.Validator;
 import org.jmock.Expectations;
 import org.jmock.Mockery;
 import org.jmock.States;

@@ -18,8 +18,6 @@ import static org.hobsoft.entangle.test.TestObservableListeners.mockObservableLi
 import static org.hobsoft.entangle.test.TestObservableListeners.mockObservableListenerWithValueChanged;
 import static org.junit.Assert.assertEquals;
 
-import org.hobsoft.entangle.InstanceObservable;
-import org.hobsoft.entangle.ObservableListener;
 import org.jmock.Mockery;
 import org.jmock.integration.junit4.JMock;
 import org.jmock.integration.junit4.JUnit4Mockery;

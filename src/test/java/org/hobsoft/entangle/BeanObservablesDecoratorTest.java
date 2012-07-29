@@ -18,11 +18,6 @@ import static org.hobsoft.entangle.test.TestObservableListeners.mockObservableLi
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 
-import org.hobsoft.entangle.BeanObservablesDecorator;
-import org.hobsoft.entangle.Observable;
-import org.hobsoft.entangle.ObservableListener;
-import org.hobsoft.entangle.Observables;
-import org.hobsoft.entangle.PropertyObservable;
 import org.hobsoft.entangle.test.FakeBoundBean;
 import org.jmock.Mockery;
 import org.jmock.integration.junit4.JMock;

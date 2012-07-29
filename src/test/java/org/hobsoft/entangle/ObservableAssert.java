@@ -16,13 +16,6 @@ package org.hobsoft.entangle;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-import org.hobsoft.entangle.BeanObservable;
-import org.hobsoft.entangle.BeanObservablesDecorator;
-import org.hobsoft.entangle.InstanceObservable;
-import org.hobsoft.entangle.NullObservable;
-import org.hobsoft.entangle.Observable;
-import org.hobsoft.entangle.PropertyObservable;
-
 /**
  * Provides custom assertions for {@code Observable} implementations.
  * 

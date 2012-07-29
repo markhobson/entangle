@@ -16,7 +16,6 @@ package org.hobsoft.entangle;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 
-import org.hobsoft.entangle.ClassUtils;
 import org.junit.Test;
 
 /**
