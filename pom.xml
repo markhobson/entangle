@@ -50,7 +50,7 @@
 					<groupId>com.github.github</groupId>
 					<artifactId>site-maven-plugin</artifactId>
 					<configuration>
-						<server>entangle-github</server>
+						<server>github</server>
 						<!-- TODO: remove repository parameters when correctly inferred from project.scm.url -->
 						<repositoryOwner>markhobson</repositoryOwner>
 						<repositoryName>entangle</repositoryName>
