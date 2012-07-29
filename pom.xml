@@ -35,7 +35,7 @@
 	<scm>
 		<connection>scm:git:git@github.com:markhobson/entangle.git</connection>
 		<developerConnection>scm:git:git@github.com:markhobson/entangle.git</developerConnection>
-		<url>https://github.com/markhobson/entangle.git</url>
+		<url>https://github.com/markhobson/entangle</url>
 	</scm>
 	
 	<issueManagement>
@@ -51,9 +51,6 @@
 					<artifactId>site-maven-plugin</artifactId>
 					<configuration>
 						<server>github</server>
-						<!-- TODO: remove repository parameters when correctly inferred from project.scm.url -->
-						<repositoryOwner>markhobson</repositoryOwner>
-						<repositoryName>entangle</repositoryName>
 					</configuration>
 				</plugin>
 			</plugins>
