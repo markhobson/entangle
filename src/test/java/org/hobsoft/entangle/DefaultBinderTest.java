@@ -13,7 +13,6 @@
  */
 package org.hobsoft.entangle;
 
-
 /**
  * Tests {@code DefaultBinder}.
  * 
