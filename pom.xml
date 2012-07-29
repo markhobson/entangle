@@ -15,6 +15,12 @@
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
+	<parent>
+		<groupId>org.hobsoft</groupId>
+		<artifactId>hobsoft-parent</artifactId>
+		<version>0.1.0-SNAPSHOT</version>
+	</parent>
+	
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.hobsoft.entangle</groupId>
 	<artifactId>entangle</artifactId>
@@ -46,10 +52,6 @@
 		</developer>
 	</developers>
 	
-	<prerequisites>
-		<maven>3.0.4</maven>
-	</prerequisites>
-	
 	<scm>
 		<connection>scm:git:git@github.com:markhobson/entangle.git</connection>
 		<developerConnection>scm:git:git@github.com:markhobson/entangle.git</developerConnection>
@@ -61,138 +63,22 @@
 		<url>https://github.com/markhobson/entangle/issues</url>
 	</issueManagement>
 	
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
-	
 	<build>
 		<pluginManagement>
 			<plugins>
 				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-clean-plugin</artifactId>
-					<version>2.5</version>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-compiler-plugin</artifactId>
-					<version>2.5.1</version>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-deploy-plugin</artifactId>
-					<version>2.7</version>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-gpg-plugin</artifactId>
-					<version>1.4</version>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-install-plugin</artifactId>
-					<version>2.3.1</version>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-jar-plugin</artifactId>
-					<version>2.4</version>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-javadoc-plugin</artifactId>
-					<version>2.8.1</version>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-release-plugin</artifactId>
-					<version>2.3.2</version>
-					<configuration>
-						<pushChanges>false</pushChanges>
-					</configuration>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-resources-plugin</artifactId>
-					<!-- TODO: upgrade to 2.6 for MRESOURCES-140 when released -->
-					<version>2.4.3</version>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-site-plugin</artifactId>
-					<version>3.1</version>
-					<configuration>
-						<!-- we use ghSite:site instead -->
-						<skipDeploy>true</skipDeploy>
-					</configuration>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-source-plugin</artifactId>
-					<version>2.1.2</version>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-surefire-plugin</artifactId>
-					<version>2.12</version>
-				</plugin>
-				<plugin>
 					<groupId>com.github.github</groupId>
 					<artifactId>site-maven-plugin</artifactId>
-					<version>0.7</version>
 					<configuration>
 						<server>entangle-github</server>
 						<!-- TODO: remove repository parameters when correctly inferred from project.scm.url -->
 						<repositoryOwner>markhobson</repositoryOwner>
 						<repositoryName>entangle</repositoryName>
-						<message>Creating site for ${project.version}</message>
 					</configuration>
 				</plugin>
 			</plugins>
 		</pluginManagement>
-		<plugins>
-			<plugin>
-				<groupId>com.github.github</groupId>
-				<artifactId>site-maven-plugin</artifactId>
-				<executions>
-					<execution>
-						<id>github-site-deploy</id>
-						<phase>site-deploy</phase>
-						<goals>
-							<goal>site</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-		</plugins>
 	</build>
-	
-	<profiles>
-		<profile>
-			<id>release</id>
-			<activation>
-				<property>
-					<name>performRelease</name>
-				</property>
-			</activation>
-			<build>
-				<plugins>
-					<plugin>
-						<groupId>org.apache.maven.plugins</groupId>
-						<artifactId>maven-gpg-plugin</artifactId>
-						<executions>
-							<execution>
-								<id>sign</id>
-								<goals>
-									<goal>sign</goal>
-								</goals>
-							</execution>
-						</executions>
-					</plugin>
-				</plugins>
-			</build>
-		</profile>
-	</profiles>
 	
 	<dependencies>
 	
@@ -206,48 +92,5 @@
 		</dependency>
 	
 	</dependencies>
-
-	<reporting>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-project-info-reports-plugin</artifactId>
-				<version>2.4</version>
-				<reportSets>
-					<reportSet/>
-				</reportSets>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-javadoc-plugin</artifactId>
-				<version>2.8.1</version>
-				<reportSets>
-					<reportSet>
-						<reports>
-							<report>javadoc</report>
-						</reports>
-					</reportSet>
-				</reportSets>
-				<configuration>
-					<links>
-						<link>http://docs.oracle.com/javase/1.5.0/docs/api</link>
-					</links>
-				</configuration>
-			</plugin>
-		</plugins>
-	</reporting>
-
-	<distributionManagement>
-		<repository>
-			<id>sonatype-nexus-staging</id>
-			<name>Sonatype Nexus Staging Repository</name>
-			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-		</repository>
-		<snapshotRepository>
-			<id>sonatype-nexus-snapshots</id>
-			<name>Sonatype Nexus Snapshot Repository</name>
-			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-		</snapshotRepository>
-	</distributionManagement>
 
 </project>
