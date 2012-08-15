@@ -55,5 +55,13 @@
 		</dependency>
 	
 	</dependencies>
+	
+	<distributionManagement>
+		<site>
+			<id>github-site</id>
+			<name>Entangle Maven Site</name>
+			<url>gitsite:git@github.com/markhobson/entangle.git</url>
+		</site>
+	</distributionManagement>
 
 </project>
