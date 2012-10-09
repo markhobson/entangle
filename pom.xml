@@ -61,9 +61,9 @@
 	
 	<distributionManagement>
 		<site>
-			<id>github-site</id>
+			<id>site</id>
 			<name>Entangle Maven Site</name>
-			<url>gitsite:git@github.com/markhobson/entangle.git</url>
+			<url>scm:git:git@github.com:markhobson/entangle.git</url>
 		</site>
 	</distributionManagement>
 
