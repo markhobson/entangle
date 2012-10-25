@@ -1,4 +1,4 @@
-entangle
+Entangle
 ========
 
 A simple data-binding framework for Java.
