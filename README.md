@@ -7,6 +7,7 @@ A simple data-binding framework for Java.
 * [Javadocs](http://markhobson.github.com/entangle/apidocs/)
 * [Mailing List](https://groups.google.com/d/forum/entangle)
 
-# License
+License
+-------
 
 * [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
