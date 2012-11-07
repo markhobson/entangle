@@ -38,6 +38,7 @@
 	<scm>
 		<connection>scm:git:git@github.com:markhobson/entangle.git</connection>
 		<developerConnection>scm:git:git@github.com:markhobson/entangle.git</developerConnection>
+		<tag>HEAD</tag>
 		<url>https://github.com/markhobson/entangle</url>
 	</scm>
 	
