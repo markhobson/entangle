@@ -1,7 +1,7 @@
 Entangle
 ========
 
-A simple data-binding framework for Java.
+A simple data-binding library for Java.
 
 * [Wiki](https://github.com/markhobson/entangle/wiki)
 * [Javadocs](http://markhobson.github.com/entangle/apidocs/)
